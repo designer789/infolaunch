@@ -40,7 +40,7 @@ export default function LoopingWords({
     // Calculate movement offset as percentage for smooth scaling
     const wordHeight = 100 / totalWords; // Each word takes up 1/totalWords of the container height
     let currentIndex = 0;                 // Track current position in the sequence
-    let wordsArray = [...wordElements];   // Maintain array reference for DOM manipulation
+    const wordsArray = [...wordElements];   // Maintain array reference for DOM manipulation
 
     /**
      * Updates the blur effect on all word elements

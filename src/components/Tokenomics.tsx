@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import { PieChart, Coins, Users, Zap, BarChart3, Vote } from 'lucide-react';
+import { PieChart, Coins, Users, BarChart3, Vote } from 'lucide-react';
 import { colors } from '../styles/colors';
 
 interface AllocationItem {

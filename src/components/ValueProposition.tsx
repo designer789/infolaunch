@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { Scale, Coins, Users, Zap } from 'lucide-react';
-import { featureColors, colors } from '../styles/colors';
+import { featureColors } from '../styles/colors';
 
 interface ValuePropCard {
   title: string;
