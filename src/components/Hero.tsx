@@ -91,8 +91,10 @@ export default function Hero() {
       <div className="absolute inset-0 w-full h-full pointer-events-none hidden lg:block">
         {/* Left decorative element - Pink/Purple */}
         <div 
-          className="absolute left-0 bottom-0 w-128 h-128 transition-transform duration-700 ease-out"
+          className="absolute left-0 bottom-0 transition-transform duration-700 ease-out"
           style={{
+            width: '25%',
+            height: '40%',
             backgroundImage: 'url(/left.svg)',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
@@ -105,8 +107,10 @@ export default function Hero() {
         
         {/* Top decorative element - Light Blue */}
         <div 
-          className="absolute top-0 left-0 w-136 h-136 transition-transform duration-700 ease-out"
+          className="absolute top-0 left-0 transition-transform duration-700 ease-out"
           style={{
+            width: '35%',
+            height: '30%',
             backgroundImage: 'url(/top.svg)',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
@@ -119,8 +123,10 @@ export default function Hero() {
         
         {/* Right decorative element - Light Green */}
         <div 
-          className="absolute right-0 top-1/2 w-128 h-128 transition-transform duration-700 ease-out"
+          className="absolute right-0 top-1/2 transition-transform duration-700 ease-out"
           style={{
+            width: '25%',
+            height: '40%',
             backgroundImage: 'url(/right.svg)',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
